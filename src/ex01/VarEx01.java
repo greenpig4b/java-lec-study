@@ -17,5 +17,6 @@ public class VarEx01 {
         System.out.println(big1);
         System.out.println(b1);
         System.out.println(c1);
+
     }// 자바 프로그램 종료
 }
