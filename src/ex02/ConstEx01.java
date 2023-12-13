@@ -8,5 +8,6 @@ public class ConstEx01 {
 
         num = 2;
         // sum = 20;
+
     }
 }
