@@ -1,7 +1,7 @@
 package ex02;
 
 public class CastEx01 {
-    public static void main(String[] args) {
+        public static void main(String[] args) {
         int n1 = 1; // int 4Byte
         double d1 = 1.5;  // double 8Byte
 
