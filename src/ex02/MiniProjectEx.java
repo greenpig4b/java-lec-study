@@ -14,9 +14,11 @@ public class MiniProjectEx {
         choose = sc.nextInt();
 
         if( choose > 1){
+            // 1. 화씨 온도받기
             System.out.print("화씨온도를 적으세요");
-
             f =  sc.nextInt();
+
+            // 2. 화씨 -> 섭씨 온도로 변환
             cTemp = (double) 5/9 * (f - 32);
 
             System.out.println("섭씨온도는" + cTemp);

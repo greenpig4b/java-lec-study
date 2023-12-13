@@ -1,6 +1,6 @@
 package ex04;
 
-class Person2 {
+class Person2 {    //커스텀 함수
     int age = 10;
     char gender = '남';
 }
