@@ -16,3 +16,5 @@ public class GetSum {
         System.out.println("정수의 합은" + sum + "입니다");
     }
 }
+
+
