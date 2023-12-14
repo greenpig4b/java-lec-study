@@ -5,17 +5,17 @@ import java.util.Scanner;
 public class MiniProjectEx02 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        //1. 화씨 온도 받기
-        System.out.print("화씨온도는 : ");
-        double temp = sc.nextDouble();
 
-        //2. 섭씨 온도 변환
-        double result = 5.0 / 9.0 * (temp - 32);
-        System.out.println(result);
+        // double temp = 5.0/9.0 * (choose - 32);
+        // double temp = input * 9.0/5.0 + 32;
+//        System.out.println("=============================");
+//        System.out.println("1. 화씨 -> 섭씨");
+//        System.out.println("2. 섭씨 -> 화씨");
+//        System.out.println("=============================");
+//        System.out.println();
 
-        System.out.print("섭씨온도를 적으세요");
-
-
+        System.out.print("번호를 입력하세요 : ");
+        int choose = sc.nextInt();
 
     }
 }
