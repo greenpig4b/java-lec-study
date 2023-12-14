@@ -14,7 +14,6 @@ public class GugudanEx01 {
          }
 
 
-
       // 단마다 옆으로 나뉘도록 프로그램을 만들어라
 
        for(int i = 1; i <= 9; i++ ){
