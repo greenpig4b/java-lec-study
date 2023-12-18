@@ -14,25 +14,23 @@ public class BubbleTest07 {
                 arr[i] = arr[i+1];
                 arr[i+1] = temp;
             }
-            for (int j = 0; j < N-2; j++) {
-                if(arr[j] > arr[j+1]){
-                    temp = arr[j];
-                    arr[j] = arr[j+1];
-                    arr[j+1] = temp;
-                }
-                for (int k = 0; k < N-3; k++) {
-                    if (arr[k] > arr[k+1]){
-                        temp = arr[k];
-                        arr[k] = arr[k+1];
-                        arr[k+1] = temp;
-                    }
-                }
+        for (int j = 0; j < N-2; j++) {
+            if(arr[j] > arr[j+1]){
+                temp = arr[j];
+                arr[j] = arr[j+1];
+                arr[j+1] = temp;
+            }
+        for (int k = 0; k < N-3; k++) {
+            if (arr[k] > arr[k+1]){
+                temp = arr[k];
+                arr[k] = arr[k+1];
+                arr[k+1] = temp;
             }
         }
-
+    }
+}
         for (int i = 0; i < 5; i++) {
             System.out.println(arr[i] + " ");
         }
-
     }
 }

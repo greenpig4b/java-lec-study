@@ -13,6 +13,5 @@ public class BubbleTest03 {
 
         System.out.println(arr[0]);
         System.out.println(arr[1]);
-
     }
 }
