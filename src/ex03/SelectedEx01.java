@@ -44,7 +44,7 @@ public class SelectedEx01 {
 
 
 
-
+//
 //        i = i + 1; // 2
 //        if (arr[min] > arr[i]){
 //            min = i; // 2
