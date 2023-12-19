@@ -8,16 +8,22 @@ public class BinarySearch {
         // 시간복잡도 log2(N) -> log2(17) -> 4.x
         // 이진 검색 => 반드시 정렬이 되어 있어야 한다.
         // 17 / 2*2*2*2*2 -> logn -> log21
+
         int[] arr = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20};
         int N = arr.length;
-        final int target = 1;
+        final int target = 13;
         int start = 0;
         int end = N - 1;
         int mid;
 
+        // --start = mid + 1; 타겟이 크면
+
+        // --end = mid - 1; 타겟이 작으면
         int round = 1;
+
         while (true) {
             // 1 회전
+
             mid = start + ((end - start) / 2); // 기대값 6
 
             if (arr[mid] == target) {
@@ -29,7 +35,7 @@ public class BinarySearch {
                 start = mid + 1;
             }
 
-            if (arr[mid] > target) {
+            if (arr[mid] > target) { //
                 end = mid - 1;
             }
 
