@@ -33,9 +33,6 @@ class Account {
         this.regNumber = regNumber;
     }
 
-
-
-
     public int getRerole(){ //꺼내와라
         return rerole;
     }
@@ -59,9 +56,6 @@ class Account {
     public void setBalance(int balance){
         this.balance = balance;
     }
-
-
-
 
 }
 
