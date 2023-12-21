@@ -20,12 +20,24 @@ public class BankApp {
 
 
         // 3. 고객에게 정보를 받기 (amount)
-        long amount = 0L;
+        long amount = 100L;
 
         // 4. 이체 (ssar -> cos 100원)
         BankService.이체(ssarAccount, cosAccount, amount);
 
         // 5. 이체 (ssar -> love 100원)
         BankService.이체(ssarAccount, loveAccount, amount);
+        // 6.
+        BankService.이체(cosAccount, loveAccount,amount);
+
+        System.out.println(ssarAccount);
+        System.out.println(cosAccount);
+        System.out.println(loveAccount);
+
+        //출금
+
+        BankService.출금(ssarAccount,amount);
+
+        System.out.println(ssarAccount);
     }
 }
