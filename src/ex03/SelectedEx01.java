@@ -9,7 +9,6 @@ public class SelectedEx01 {
         //변경해야할 위치 --> replace -> rep
         //변경해야할 위치 --> min -> min
 
-
         for (int j = 0; j < N-1; j++) {
             rep = j;
             min = rep;
