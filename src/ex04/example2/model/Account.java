@@ -1,9 +1,18 @@
-package ex04.example.model;
+package ex04.example2.model;
 
 public class Account {
-public    final int id; //계좌번호 4자리 (제약조건)
-public    long balance;
-public    int userId; //
+    private final int id;
+    private long balance;
+    private int userId;
+
+    // 메서드는 하나의 책임만 가진다.
+    public void 출금(long amount) {
+        this.balance = this.balance - amount;
+    }
+
+    public void 입금(long amount) {
+        this.balance = this.balance + amount;
+    }
 
     public Account(int id, long balance, int userId) {
         this.id = id;
@@ -19,7 +28,4 @@ public    int userId; //
                 ", userId=" + userId +
                 '}';
     }
-
-
 }
-//내용
