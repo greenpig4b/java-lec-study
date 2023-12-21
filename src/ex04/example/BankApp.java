@@ -50,7 +50,5 @@ public class BankApp {
         // 이체결과 확인
         System.out.println(a1);
         System.out.println(a2);
-
-
     }
 }
