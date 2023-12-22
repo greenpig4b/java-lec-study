@@ -1,2 +1,12 @@
-package ex05;public class SingleToEx01 {
+package ex05;
+class president {
+    String name;
+
+    private president(){
+
+    }
+}
+
+public class SingleToEx01 {
+
 }
