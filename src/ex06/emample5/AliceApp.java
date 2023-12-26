@@ -2,9 +2,11 @@ package ex06.emample5;
 
 abstract class 판사{  //추상 클래스 (abstract)는 오브젝트가 아니다 (존재할 수 없다)
     public abstract void 심문();  // {} 제거 ;
+
 }
 
 class 왕 extends 판사{
+    int width, height;
     public void 심문 (){
         System.out.println("왕은 심문한다");
     }
@@ -46,6 +48,7 @@ public class AliceApp {
     public static void main(String[] args) {
         판사 u1 = new 왕비(); // [ 판사,왕비 ]
         증인 u2 = new 모자장수(); // [ 증인,모자장수 ]
+
 
         u1.심문();
 
