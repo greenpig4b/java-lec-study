@@ -39,13 +39,20 @@ class father extends Mother{
 }
 
 public class ExampleEx01 {
+
+
+    class stop{
+        public stop(Mother a, Mother b){
+            System.out.println();
+        }
+    }
+
+
+
     public static void main(String[] args) {
         Mother h1 = new brother("1");
         Mother h2 = new father("2");
 
-        h1.attack();
-        h1.attack(h1,h2);
 
-        System.out.println(h1);
     }
 }
