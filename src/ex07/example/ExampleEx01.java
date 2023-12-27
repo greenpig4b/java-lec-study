@@ -3,7 +3,6 @@ package ex07.example;
 abstract class Mother{
     String name;
     String id;
-
     public abstract void attack();
 
 }
