@@ -59,7 +59,6 @@ public class StringEx03 {
         String parse[] = data.split(":");
 
 
-
         ContractInfo s2 = new ContractInfo(Integer.parseInt(parse[0]),parse[1],parse[2],parse[3],parse[4]);
         System.out.println(s2.getMoney());
         System.out.println(s2.getAddr());

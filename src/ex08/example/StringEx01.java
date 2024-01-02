@@ -15,6 +15,26 @@ public class StringEx01 {
 
         // 인코딩 A2B3C4D5
 
+        int datalength = data.length();
+
+        System.out.println(datalength);
+
+        int count = 0;
+
+        for (int i = 0; i < datalength; i++) {
+
+        }
+
+
+
+
+
+
+
+
+
+
+
         // 디코딩 AABBBCCCCDDDDD
     }
 }
