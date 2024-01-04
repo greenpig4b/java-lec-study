@@ -43,6 +43,7 @@ public class Example003 extends JFrame {
             }
         });
 
+        new Thread(() -> {}).start();
         new Thread(() -> {
             while (state) {
                 try {
