@@ -26,7 +26,6 @@ public class Example01 {
         }
     }
 
-
     public static void main(String[] args) {
         Thread t1 = new Thread(() -> {
             sub1();
