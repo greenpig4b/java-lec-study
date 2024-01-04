@@ -21,8 +21,6 @@ public class Box {
         list.add("100");  //바뀐부분
         list.add(200);
 
-
-
         Integer value1 = (Integer) list.get(0);
         Integer value2 = (Integer) list.get(1);
         Integer value3 = (Integer) list.get(2);
