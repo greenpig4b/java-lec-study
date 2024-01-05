@@ -11,7 +11,6 @@ public class CopyEx02 {
         //map
         List<Integer> newList = list.stream().map((i) -> i * 100).toList();
 
-
         //foreach
         newList.stream().forEach(i-> System.out.println(i));
     }

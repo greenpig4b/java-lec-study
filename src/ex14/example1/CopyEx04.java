@@ -11,6 +11,9 @@ class User{
         this.tel = tel;
     }
 
+
+
+
     @Override
     public String toString() {
         return "User{" +
@@ -40,6 +43,7 @@ public class CopyEx04 {
 
         // 1. 통째로 복사
         User u2 = new User(u1.getId(),u1.getName(),u1.getTel()); //기본적인 변경
+
 
         // 2. 부분변경
         User u3 = new User(u1.getId(),u1.getName(),"0103333"); //기본적인 변경
