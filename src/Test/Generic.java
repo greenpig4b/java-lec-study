@@ -10,8 +10,7 @@ class Box2<T>{
     }
 
     public T get(int idx){
-        return (T)arr[idx];
-
+        return (T) arr[idx];
     }
 }
 
@@ -26,6 +25,8 @@ public class Generic {
         b2.add(200);
 
         System.out.println(b2.get(1));
+
+
 
     }
 }
