@@ -21,6 +21,5 @@ public class StreamEx02 {
             throw new RuntimeException(e);
         }
 
-
     }
 }
