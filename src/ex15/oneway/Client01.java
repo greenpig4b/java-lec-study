@@ -9,7 +9,7 @@ import java.net.Socket;
 public class Client01 {
     public static void main(String[] args) {
 
-
+        //수정함
         try {
             Socket socket = new Socket("127.0.0.1",10000);
             BufferedWriter bw = new BufferedWriter(

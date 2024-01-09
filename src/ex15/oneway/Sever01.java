@@ -9,6 +9,7 @@ import java.net.Socket;
 
 public class Sever01 {
     public static void main(String[] args) {
+        //수정함
         try {
             // 연결소켓 생성
             ServerSocket serverSocket = new ServerSocket(10000);
