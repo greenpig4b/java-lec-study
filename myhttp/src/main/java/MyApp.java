@@ -1,10 +1,6 @@
-package com.metacoding.myhttp;
-
-
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
 import java.net.URL;
 
 public class MyApp {
@@ -18,15 +14,21 @@ public class MyApp {
             );
 
             String download = "";
+
             while(true){
                 String line = br.readLine();
 
-                if (line == null) break;
+                if(line == null) break;
 
                 download = download + line;
             }
 
-            System.out.println(download);
+            //System.out.println(download);
+
+//            ObjectMapper om = new ObjectMapper();
+//            Todo todo = om.readValue(download, Todo.class);
+//
+//            System.out.println(todo.getTitle());
 
         } catch (Exception e) {
             throw new RuntimeException(e);
