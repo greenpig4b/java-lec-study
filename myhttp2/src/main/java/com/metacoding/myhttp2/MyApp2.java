@@ -27,13 +27,13 @@ public class MyApp2 {
                 download = download + line;
             }
 
-            System.out.println(download);
+           // System.out.println(download);
 
-//            ObjectMapper om = new ObjectMapper();
-//            Post post = om.readValue(download, Post.class);
-//
-//            System.out.println("==========================");
-//            System.out.println("check : "+post.getTitle());
+            ObjectMapper om = new ObjectMapper();
+        Todo todo = om.readValue(download, Todo.class);
+
+        System.out.println("==========================");
+           System.out.println("나오: "+ todo.getTitle());
 
         } catch (Exception e) {
             throw new RuntimeException(e);
