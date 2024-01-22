@@ -25,7 +25,8 @@ public class Generic {
         b2.add(200);
 
         System.out.println(b2.get(1));
-
+        System.out.println("안녕하세요");
+        System.out.println("TO DO");
 
 
     }
